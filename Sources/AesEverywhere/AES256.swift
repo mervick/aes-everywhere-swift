@@ -2,7 +2,7 @@
 // This file is part of AES-everywhere project (https://github.com/mervick/aes-everywhere)
 //
 // This is an implementation of the AES algorithm, specifically CBC mode,
-// with block size 256 bits and PKCS7 padding.
+// with 256 bits key length and PKCS7 padding.
 //
 // Copyright Andrey Izman (c) 2019 <izmanw@gmail.com>
 //
