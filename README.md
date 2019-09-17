@@ -15,7 +15,7 @@ Current repo is a part of [AES-everywhere](https://github.com/mervick/aes-everyw
 
 ### Installation
 
-**Using [Swift Package Manager](https://swift.org/package-manager/):**
+**Using [Swift Package Manager](https://swift.org/package-manager/):**  
 In your `Package.swift` add dependency to github url
 ```swift
   dependencies: [
