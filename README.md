@@ -13,7 +13,7 @@ On macOS and iOS, BlueCryptor uses the Apple provided [CommonCrypto](https://dev
 
 Current repo is a part of [AES-everywhere](https://github.com/mervick/aes-everywhere) project separated due to the requirements of Swift Package Manager
 
-### Installation
+### Including in your project
 
 **Using [Swift Package Manager](https://swift.org/package-manager/):**  
 In your `Package.swift` add dependency to github url
@@ -31,6 +31,13 @@ and in target dependencies add "AesEverywhere":
         "AesEverywhere"
       ])
   ]
+```
+
+**Using [Carthage](https://github.com/Carthage/Carthage):**
+
+To include AesEverywhere in a project using Carthage, add a line to your Cartfile:
+```
+  github "mervick/aes-everywhere-swift" ~> 1.2
 ```
 
 **Using [CocoaPods](https://cocoapods.org/):**
