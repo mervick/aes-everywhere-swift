@@ -11,7 +11,7 @@ let package = Package(
             targets: ["AesEverywhere"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", .exact("1.0.31"))
+        .package(url: "https://github.com/Kitura/BlueCryptor.git", .exact("2.0.0"))
     ],
     targets: [
         .target(
